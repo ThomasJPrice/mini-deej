@@ -1,4 +1,4 @@
-// testing with one slider for now
+// code for all sliders
 
 const int NUM_SLIDERS = 4;
 const int analogInputs[NUM_SLIDERS] = {A1, A2, A3, A4};
