@@ -1,7 +1,7 @@
 // testing with one slider for now
 
-const int NUM_SLIDERS = 1;
-const int analogInputs[NUM_SLIDERS] = {A1};
+const int NUM_SLIDERS = 4;
+const int analogInputs[NUM_SLIDERS] = {A1, A2, A3, A4};
 
 int analogSliderValues[NUM_SLIDERS];
 
