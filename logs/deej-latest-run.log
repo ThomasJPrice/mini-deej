@@ -1,0 +1,20 @@
+2024-09-01 15:15:53.027	info	main                       	Version info	{"gitCommit": "7567f83", "versionTag": "v0.9.10", "buildType": "release"}
+2024-09-01 15:15:53.054	info	deej.config                	Loaded config successfully
+2024-09-01 15:15:53.054	info	deej.config                	Config values	{"sliderMapping": "<4 sliders mapped to 4 targets>", "connectionInfo": {"COMPort":"COM8","BaudRate":9600}, "invertSliders": false}
+2024-09-01 15:15:53.121	info	deej.sessions              	Got all audio sessions successfully	{"sessionMap": "<19 audio sessions>"}
+2024-09-01 15:15:53.187	info	deej                       	Run loop starting
+2024-09-01 15:15:53.187	warn	deej.serial                	Failed to open serial connection	{"error": "The system cannot find the file specified."}
+2024-09-01 15:15:53.187	warn	deej                       	Failed to start first-time serial connection	{"error": "open serial connection: The system cannot find the file specified."}
+2024-09-01 15:15:53.187	warn	deej                       	Provided COM port seems wrong, notifying user and closing	{"comPort": "COM8"}
+2024-09-01 15:15:53.188	info	deej.notifier              	Sending toast notification	{"title": "Can't connect to COM8!", "message": "This serial port doesn't exist, check your configuration and make sure it's set correctly."}
+2024-09-01 15:15:53.488	info	deej                       	Stopping
+2024-09-02 07:08:33.783	info	main                       	Version info	{"gitCommit": "7567f83", "versionTag": "v0.9.10", "buildType": "release"}
+2024-09-02 07:08:34.477	info	deej.config                	Loaded config successfully
+2024-09-02 07:08:34.569	info	deej.config                	Config values	{"sliderMapping": "<4 sliders mapped to 4 targets>", "connectionInfo": {"COMPort":"COM8","BaudRate":9600}, "invertSliders": false}
+2024-09-02 07:08:35.450	info	deej.sessions              	Got all audio sessions successfully	{"sessionMap": "<9 audio sessions>"}
+2024-09-02 07:08:36.536	info	deej                       	Run loop starting
+2024-09-02 07:08:36.536	warn	deej.serial                	Failed to open serial connection	{"error": "The system cannot find the file specified."}
+2024-09-02 07:08:36.540	warn	deej                       	Failed to start first-time serial connection	{"error": "open serial connection: The system cannot find the file specified."}
+2024-09-02 07:08:36.540	warn	deej                       	Provided COM port seems wrong, notifying user and closing	{"comPort": "COM8"}
+2024-09-02 07:08:36.540	info	deej.notifier              	Sending toast notification	{"title": "Can't connect to COM8!", "message": "This serial port doesn't exist, check your configuration and make sure it's set correctly."}
+2024-09-02 07:08:37.564	info	deej                       	Stopping
